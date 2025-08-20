@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="SMS Goal Notifications" android:textSize="20sp" android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Phone number (e.g. (123) 456-7890)"
+        android:inputType="phone" android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnEnableSms"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Enable &amp; Send Test" android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Status: Permission not requested" android:layout_marginTop="12dp"/>
+</LinearLayout>
