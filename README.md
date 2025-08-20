@@ -10,8 +10,7 @@ The app includes input fields for weight and date, a history table showing past 
 and an optional phone number field for SMS alerts. The UI was kept clean and simple, using intuitive controls and labels to ensure ease 
 of use. By focusing on clarity and quick interactions, the design supports user needs effectively.
 
-# How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or 
-# strategies be applied in the future?
+# How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
 ------------------------------------------------------------------------------------------------------------------------------------------
 Development started with a rough software design document outlining classes, data handling, and UI structure. This upfront planning 
 reduced confusion later in development. Code was written incrementally, testing small pieces at a time, which ensured fewer bugs and
@@ -23,8 +22,7 @@ Testing was done manually through emulator and device runs, checking validation 
 is vital to catch edge cases and confirm all paths through the app work as expected. It revealed a few logic errors early on, which were 
 quickly resolved.
 
-# Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome
-# a challenge?
+# Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
 ------------------------------------------------------------------------------------------------------------------------------------------
 One major challenge was integrating user-defined goals and adding conditional logic to notify the user when the goal was reached. To solve
 this, the database was extended with a goal field, and logic was added to check goal conditions dynamically after each entry.
