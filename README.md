@@ -4,8 +4,7 @@ This app was built to help users track their daily weight and monitor progress t
 with a date and weight, view history, edit or delete past entries, and receive a notification when their goal is reached. The app
 addresses the need for simple, offline weight tracking without account creation or complex features.
 
-# What screens and features were necessary to support user needs and produce a user-centered UI for the app?
-# How did your UI designs keep users in mind? Why were your designs successful?
+# What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
 ------------------------------------------------------------------------------------------------------------------------------------------
 The app includes input fields for weight and date, a history table showing past entries, edit/delete buttons for each row, a goal field,
 and an optional phone number field for SMS alerts. The UI was kept clean and simple, using intuitive controls and labels to ensure ease 
